@@ -1,0 +1,33 @@
+{
+  "generic": {
+    "title": "Si è verificato un errore",
+    "description": "Qualcosa è andato storto. Riprova più tardi.",
+    "retry": "Riprova"
+  },
+  "network": {
+    "offline": "Sei offline. Controlla la connessione.",
+    "timeout": "Richiesta scaduta. Riprova.",
+    "server": "Errore del server. Riprova più tardi."
+  },
+  "auth": {
+    "unauthorized": "Non autorizzato. Effettua il login.",
+    "forbidden": "Accesso negato.",
+    "session_expired": "Sessione scaduta. Effettua nuovamente il login."
+  },
+  "chat": {
+    "send_failed": "Invio messaggio fallito.",
+    "stream_failed": "Errore streaming risposta.",
+    "connection_lost": "Connessione persa. Riconnessione..."
+  },
+  "upload": {
+    "too_large": "File troppo grande. Massimo {{size}}MB.",
+    "invalid_type": "Tipo file non supportato.",
+    "failed": "Caricamento fallito. Riprova."
+  },
+  "validation": {
+    "required": "Campo obbligatorio",
+    "min_length": "Minimo {{count}} caratteri",
+    "max_length": "Massimo {{count}} caratteri",
+    "invalid_email": "Email non valida"
+  }
+}

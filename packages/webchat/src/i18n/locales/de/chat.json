@@ -1,0 +1,93 @@
+{
+  "widget": {
+    "title": "LEO Assistent",
+    "subtitle": "Wie kann ich Ihnen helfen?",
+    "open": "Chat offnen",
+    "close": "Chat schliessen",
+    "placeholder": "Nachricht eingeben...",
+    "inputLabel": "Nachrichtenfeld",
+    "send": "Nachricht senden",
+    "skip": "Uberspringen",
+    "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.",
+    "poweredBy": "Powered by LEO",
+    "unreadCount": "{{count}} ungelesene Nachrichten"
+  },
+  "input": {
+    "placeholder": "Nachricht eingeben...",
+    "placeholder_disabled": "Chat deaktiviert",
+    "send_tooltip": "Nachricht senden (Enter)",
+    "attach_tooltip": "Datei anhängen",
+    "voice_tooltip": "Sprachnachricht"
+  },
+  "messages": {
+    "assistant_typing": "LEO schreibt...",
+    "assistant_thinking": "LEO denkt nach...",
+    "you": "Du",
+    "assistant": "LEO",
+    "system": "System",
+    "no_messages": "Keine Nachrichten. Starte eine Unterhaltung!",
+    "load_more": "Frühere Nachrichten laden"
+  },
+  "streaming": {
+    "skip": "Animation überspringen",
+    "generating": "Generierung läuft...",
+    "phase": "Phase {{number}}",
+    "tokens": "{{count}} Token"
+  },
+  "attachments": {
+    "uploading": "Wird hochgeladen...",
+    "uploaded": "Datei hochgeladen",
+    "processing": "Datei wird verarbeitet...",
+    "failed": "Hochladen fehlgeschlagen",
+    "remove": "Anhang entfernen",
+    "preview": "Vorschau",
+    "download": "Datei herunterladen",
+    "types": {
+      "pdf": "PDF-Dokument",
+      "doc": "Word-Dokument",
+      "image": "Bild",
+      "audio": "Audiodatei",
+      "video": "Video",
+      "other": "Datei"
+    },
+    "size_limit": "Maximale Größe: {{size}}MB"
+  },
+  "tools": {
+    "title": "Werkzeuge",
+    "executing": "Werkzeug wird ausgeführt...",
+    "completed": "Werkzeug abgeschlossen",
+    "failed": "Werkzeug fehlgeschlagen",
+    "browser": "Browser",
+    "search": "Suche",
+    "code": "Code-Ausführung",
+    "file": "Dateioperation"
+  },
+  "memory": {
+    "title": "Speicher",
+    "layer": "Ebene {{number}}",
+    "l0": "Sitzung",
+    "l1": "Unterhaltung",
+    "l2": "Benutzer",
+    "l3": "Semantisch",
+    "l4": "Graph",
+    "facts": "Gespeicherte Fakten",
+    "no_facts": "Keine Fakten gespeichert",
+    "view_graph": "Graph anzeigen"
+  },
+  "conversations": {
+    "title": "Unterhaltungen",
+    "new": "Neue Unterhaltung",
+    "search": "Unterhaltungen suchen...",
+    "empty": "Keine Unterhaltungen",
+    "delete_confirm": "Diese Unterhaltung löschen?"
+  },
+  "phases": {
+    "receiving": "LEO empfängt...",
+    "classifying": "LEO klassifiziert...",
+    "routing": "LEO leitet weiter...",
+    "generating": "LEO generiert...",
+    "validating": "LEO validiert...",
+    "integrating": "LEO integriert...",
+    "responding": "LEO antwortet..."
+  }
+}

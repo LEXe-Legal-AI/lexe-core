@@ -1,0 +1,33 @@
+================================================================================
+Privacy Module Benchmarking Framework
+================================================================================
+
+Loading test dataset...
+✓ Loaded 10 annotated documents
+
+Initializing engines...
+Traceback (most recent call last):
+  File "C:\Progects\lexeprolocaldev\lexe\LEXePro\src\llsearch\privacy\benchmarking\example_usage.py", line 134, in <module>
+    asyncio.run(main())
+  File "C:\Python311\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\asyncio\base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Progects\lexeprolocaldev\lexe\LEXePro\src\llsearch\privacy\benchmarking\example_usage.py", line 52, in main
+    'spacy': SpacyEngine(
+             ^^^^^^^^^^^^
+  File "C:\Progects\lexeprolocaldev\lexe\LEXePro\src\llsearch\privacy\engines\spacy\spacy_engine.py", line 99, in __init__
+    self.replacer = create_consistent_strategy(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Progects\lexeprolocaldev\lexe\LEXePro\src\llsearch\privacy\pipeline\strategies.py", line 556, in create_consistent_strategy
+    base_strategy = create_strategy(base_strategy_name, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Progects\lexeprolocaldev\lexe\LEXePro\src\llsearch\privacy\pipeline\strategies.py", line 528, in create_strategy
+    return DeterministicReplacer(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DeterministicReplacer.__init__() got an unexpected keyword argument 'locale'

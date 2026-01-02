@@ -1,0 +1,85 @@
+{
+  "app": {
+    "name": "LEO Webchat",
+    "tagline": "From chaos to results"
+  },
+  "actions": {
+    "send": "Send",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "close": "Close",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "delete": "Delete",
+    "edit": "Edit",
+    "save": "Save",
+    "retry": "Retry",
+    "skip": "Skip",
+    "upload": "Upload",
+    "download": "Download",
+    "expand": "Expand",
+    "collapse": "Collapse",
+    "search": "Search"
+  },
+  "navigation": {
+    "home": "Home",
+    "conversations": "Conversations",
+    "settings": "Settings",
+    "help": "Help",
+    "logout": "Logout"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "language": {
+    "select": "Select language",
+    "current": "Current language"
+  },
+  "status": {
+    "online": "Online",
+    "offline": "Offline",
+    "connecting": "Connecting...",
+    "loading": "Loading...",
+    "processing": "Processing..."
+  },
+  "time": {
+    "now": "Now",
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "minutes_ago": "{{count}} minute ago",
+    "minutes_ago_plural": "{{count}} minutes ago",
+    "hours_ago": "{{count}} hour ago",
+    "hours_ago_plural": "{{count}} hours ago"
+  },
+  "upload": {
+    "drop_here": "Drop files here",
+    "supported_formats": "Images, documents, and code files",
+    "failed": "Upload failed",
+    "uploading": "Uploading...",
+    "size_limit": "File too large (max {{size}}MB)",
+    "type_not_supported": "File type not supported"
+  },
+  "common": {
+    "remove": "Remove"
+  },
+  "auth": {
+    "title": "LEO Platform",
+    "subtitle": "Your Virtual Operations Director",
+    "login_oauth": "Continue with Authentik",
+    "login_guest": "Continue as Guest",
+    "email": "Email",
+    "password": "Password",
+    "login_submit": "Sign In"
+  },
+  "user": {
+    "menu": "User menu",
+    "guest": "Guest",
+    "guestSession": "Guest session",
+    "guestBadge": "GUEST",
+    "settings": "Settings",
+    "profile": "Profile",
+    "logout": "Logout"
+  }
+}

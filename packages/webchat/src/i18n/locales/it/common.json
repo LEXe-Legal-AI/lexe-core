@@ -1,0 +1,85 @@
+{
+  "app": {
+    "name": "LEO Webchat",
+    "tagline": "Dal caos ai risultati"
+  },
+  "actions": {
+    "send": "Invia",
+    "cancel": "Annulla",
+    "confirm": "Conferma",
+    "close": "Chiudi",
+    "copy": "Copia",
+    "copied": "Copiato!",
+    "delete": "Elimina",
+    "edit": "Modifica",
+    "save": "Salva",
+    "retry": "Riprova",
+    "skip": "Salta",
+    "upload": "Carica",
+    "download": "Scarica",
+    "expand": "Espandi",
+    "collapse": "Comprimi",
+    "search": "Cerca"
+  },
+  "navigation": {
+    "home": "Home",
+    "conversations": "Conversazioni",
+    "settings": "Impostazioni",
+    "help": "Aiuto",
+    "logout": "Esci"
+  },
+  "theme": {
+    "light": "Chiaro",
+    "dark": "Scuro",
+    "system": "Sistema"
+  },
+  "language": {
+    "select": "Seleziona lingua",
+    "current": "Lingua corrente"
+  },
+  "status": {
+    "online": "Online",
+    "offline": "Offline",
+    "connecting": "Connessione in corso...",
+    "loading": "Caricamento...",
+    "processing": "Elaborazione..."
+  },
+  "time": {
+    "now": "Adesso",
+    "today": "Oggi",
+    "yesterday": "Ieri",
+    "minutes_ago": "{{count}} minuto fa",
+    "minutes_ago_plural": "{{count}} minuti fa",
+    "hours_ago": "{{count}} ora fa",
+    "hours_ago_plural": "{{count}} ore fa"
+  },
+  "upload": {
+    "drop_here": "Trascina qui i file",
+    "supported_formats": "Immagini, documenti e file di codice",
+    "failed": "Caricamento fallito",
+    "uploading": "Caricamento...",
+    "size_limit": "File troppo grande (max {{size}}MB)",
+    "type_not_supported": "Tipo di file non supportato"
+  },
+  "common": {
+    "remove": "Rimuovi"
+  },
+  "auth": {
+    "title": "Piattaforma LEO",
+    "subtitle": "Il tuo Direttore Operativo Virtuale",
+    "login_oauth": "Continua con Authentik",
+    "login_guest": "Continua come Ospite",
+    "email": "Email",
+    "password": "Password",
+    "login_submit": "Accedi"
+  },
+  "user": {
+    "menu": "Menu utente",
+    "guest": "Ospite",
+    "guestSession": "Sessione ospite",
+    "guestBadge": "OSPITE",
+    "settings": "Impostazioni",
+    "profile": "Profilo",
+    "logout": "Esci"
+  }
+}

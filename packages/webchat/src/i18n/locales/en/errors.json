@@ -1,0 +1,33 @@
+{
+  "generic": {
+    "title": "An error occurred",
+    "description": "Something went wrong. Please try again later.",
+    "retry": "Retry"
+  },
+  "network": {
+    "offline": "You are offline. Check your connection.",
+    "timeout": "Request timed out. Please try again.",
+    "server": "Server error. Please try again later."
+  },
+  "auth": {
+    "unauthorized": "Unauthorized. Please log in.",
+    "forbidden": "Access denied.",
+    "session_expired": "Session expired. Please log in again."
+  },
+  "chat": {
+    "send_failed": "Failed to send message.",
+    "stream_failed": "Error streaming response.",
+    "connection_lost": "Connection lost. Reconnecting..."
+  },
+  "upload": {
+    "too_large": "File too large. Maximum {{size}}MB.",
+    "invalid_type": "File type not supported.",
+    "failed": "Upload failed. Please try again."
+  },
+  "validation": {
+    "required": "This field is required",
+    "min_length": "Minimum {{count}} characters",
+    "max_length": "Maximum {{count}} characters",
+    "invalid_email": "Invalid email address"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "widget": {
+    "title": "LEO Assistant",
+    "subtitle": "Como puedo ayudarte?",
+    "open": "Abrir chat",
+    "close": "Cerrar chat",
+    "placeholder": "Escribe un mensaje...",
+    "inputLabel": "Campo de mensaje",
+    "send": "Enviar mensaje",
+    "skip": "Saltar",
+    "error": "Algo salio mal. Por favor, intenta de nuevo.",
+    "poweredBy": "Powered by LEO",
+    "unreadCount": "{{count}} mensajes no leidos"
+  },
+  "input": {
+    "placeholder": "Escribe un mensaje...",
+    "placeholder_disabled": "Chat deshabilitado",
+    "send_tooltip": "Enviar mensaje (Enter)",
+    "attach_tooltip": "Adjuntar archivo",
+    "voice_tooltip": "Mensaje de voz"
+  },
+  "messages": {
+    "assistant_typing": "LEO está escribiendo...",
+    "assistant_thinking": "LEO está pensando...",
+    "you": "Tú",
+    "assistant": "LEO",
+    "system": "Sistema",
+    "no_messages": "Sin mensajes. ¡Inicia una conversación!",
+    "load_more": "Cargar mensajes anteriores"
+  },
+  "streaming": {
+    "skip": "Saltar animación",
+    "generating": "Generando...",
+    "phase": "Fase {{number}}",
+    "tokens": "{{count}} tokens"
+  },
+  "attachments": {
+    "uploading": "Subiendo...",
+    "uploaded": "Archivo subido",
+    "processing": "Procesando archivo...",
+    "failed": "Error al subir",
+    "remove": "Eliminar adjunto",
+    "preview": "Vista previa",
+    "download": "Descargar archivo",
+    "types": {
+      "pdf": "Documento PDF",
+      "doc": "Documento Word",
+      "image": "Imagen",
+      "audio": "Archivo de audio",
+      "video": "Video",
+      "other": "Archivo"
+    },
+    "size_limit": "Tamaño máximo: {{size}}MB"
+  },
+  "tools": {
+    "title": "Herramientas",
+    "executing": "Ejecutando herramienta...",
+    "completed": "Herramienta completada",
+    "failed": "Error en herramienta",
+    "browser": "Navegador",
+    "search": "Búsqueda",
+    "code": "Ejecución de código",
+    "file": "Operación de archivo"
+  },
+  "memory": {
+    "title": "Memoria",
+    "layer": "Capa {{number}}",
+    "l0": "Sesión",
+    "l1": "Conversación",
+    "l2": "Usuario",
+    "l3": "Semántica",
+    "l4": "Grafo",
+    "facts": "Hechos almacenados",
+    "no_facts": "Sin hechos almacenados",
+    "view_graph": "Ver grafo"
+  },
+  "conversations": {
+    "title": "Conversaciones",
+    "new": "Nueva conversación",
+    "search": "Buscar conversaciones...",
+    "empty": "Sin conversaciones",
+    "delete_confirm": "¿Eliminar esta conversación?"
+  },
+  "phases": {
+    "receiving": "LEO está recibiendo...",
+    "classifying": "LEO está clasificando...",
+    "routing": "LEO está enrutando...",
+    "generating": "LEO está generando...",
+    "validating": "LEO está validando...",
+    "integrating": "LEO está integrando...",
+    "responding": "LEO está respondiendo..."
+  }
+}

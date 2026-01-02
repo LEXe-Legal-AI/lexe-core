@@ -1,0 +1,93 @@
+{
+  "widget": {
+    "title": "LEO Assistant",
+    "subtitle": "How can I help you?",
+    "open": "Open chat",
+    "close": "Close chat",
+    "placeholder": "Type a message...",
+    "inputLabel": "Message input",
+    "send": "Send message",
+    "skip": "Skip",
+    "error": "Something went wrong. Please try again.",
+    "poweredBy": "Powered by LEO",
+    "unreadCount": "{{count}} unread messages"
+  },
+  "input": {
+    "placeholder": "Type a message...",
+    "placeholder_disabled": "Chat disabled",
+    "send_tooltip": "Send message (Enter)",
+    "attach_tooltip": "Attach file",
+    "voice_tooltip": "Voice message"
+  },
+  "messages": {
+    "assistant_typing": "LEO is typing...",
+    "assistant_thinking": "LEO is thinking...",
+    "you": "You",
+    "assistant": "LEO",
+    "system": "System",
+    "no_messages": "No messages. Start a conversation!",
+    "load_more": "Load previous messages"
+  },
+  "streaming": {
+    "skip": "Skip animation",
+    "generating": "Generating...",
+    "phase": "Phase {{number}}",
+    "tokens": "{{count}} tokens"
+  },
+  "attachments": {
+    "uploading": "Uploading...",
+    "uploaded": "File uploaded",
+    "processing": "Processing file...",
+    "failed": "Upload failed",
+    "remove": "Remove attachment",
+    "preview": "Preview",
+    "download": "Download file",
+    "types": {
+      "pdf": "PDF Document",
+      "doc": "Word Document",
+      "image": "Image",
+      "audio": "Audio file",
+      "video": "Video",
+      "other": "File"
+    },
+    "size_limit": "Maximum size: {{size}}MB"
+  },
+  "tools": {
+    "title": "Tools",
+    "executing": "Executing tool...",
+    "completed": "Tool completed",
+    "failed": "Tool failed",
+    "browser": "Browser",
+    "search": "Search",
+    "code": "Code execution",
+    "file": "File operation"
+  },
+  "memory": {
+    "title": "Memory",
+    "layer": "Layer {{number}}",
+    "l0": "Session",
+    "l1": "Conversation",
+    "l2": "User",
+    "l3": "Semantic",
+    "l4": "Graph",
+    "facts": "Stored facts",
+    "no_facts": "No facts stored",
+    "view_graph": "View graph"
+  },
+  "conversations": {
+    "title": "Conversations",
+    "new": "New conversation",
+    "search": "Search conversations...",
+    "empty": "No conversations",
+    "delete_confirm": "Delete this conversation?"
+  },
+  "phases": {
+    "receiving": "LEO is receiving...",
+    "classifying": "LEO is classifying...",
+    "routing": "LEO is routing...",
+    "generating": "LEO is generating...",
+    "validating": "LEO is validating...",
+    "integrating": "LEO is integrating...",
+    "responding": "LEO is responding..."
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "generic": {
+    "title": "Ein Fehler ist aufgetreten",
+    "description": "Etwas ist schief gelaufen. Bitte versuche es später erneut.",
+    "retry": "Wiederholen"
+  },
+  "network": {
+    "offline": "Du bist offline. Überprüfe deine Verbindung.",
+    "timeout": "Zeitüberschreitung. Bitte versuche es erneut.",
+    "server": "Serverfehler. Bitte versuche es später erneut."
+  },
+  "auth": {
+    "unauthorized": "Nicht autorisiert. Bitte melde dich an.",
+    "forbidden": "Zugriff verweigert.",
+    "session_expired": "Sitzung abgelaufen. Bitte melde dich erneut an."
+  },
+  "chat": {
+    "send_failed": "Nachricht konnte nicht gesendet werden.",
+    "stream_failed": "Fehler beim Streaming der Antwort.",
+    "connection_lost": "Verbindung verloren. Verbindung wird wiederhergestellt..."
+  },
+  "upload": {
+    "too_large": "Datei zu groß. Maximal {{size}}MB.",
+    "invalid_type": "Dateityp nicht unterstützt.",
+    "failed": "Hochladen fehlgeschlagen. Bitte versuche es erneut."
+  },
+  "validation": {
+    "required": "Dieses Feld ist erforderlich",
+    "min_length": "Mindestens {{count}} Zeichen",
+    "max_length": "Maximal {{count}} Zeichen",
+    "invalid_email": "Ungültige E-Mail-Adresse"
+  }
+}

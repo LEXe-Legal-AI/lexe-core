@@ -1,0 +1,93 @@
+{
+  "widget": {
+    "title": "LEO Assistant",
+    "subtitle": "Comment puis-je vous aider ?",
+    "open": "Ouvrir le chat",
+    "close": "Fermer le chat",
+    "placeholder": "Ecrivez un message...",
+    "inputLabel": "Champ de message",
+    "send": "Envoyer le message",
+    "skip": "Passer",
+    "error": "Une erreur est survenue. Veuillez reessayer.",
+    "poweredBy": "Propulse par LEO",
+    "unreadCount": "{{count}} messages non lus"
+  },
+  "input": {
+    "placeholder": "Écrivez un message...",
+    "placeholder_disabled": "Chat désactivé",
+    "send_tooltip": "Envoyer le message (Entrée)",
+    "attach_tooltip": "Joindre un fichier",
+    "voice_tooltip": "Message vocal"
+  },
+  "messages": {
+    "assistant_typing": "LEO écrit...",
+    "assistant_thinking": "LEO réfléchit...",
+    "you": "Vous",
+    "assistant": "LEO",
+    "system": "Système",
+    "no_messages": "Aucun message. Commencez une conversation !",
+    "load_more": "Charger les messages précédents"
+  },
+  "streaming": {
+    "skip": "Passer l'animation",
+    "generating": "Génération en cours...",
+    "phase": "Phase {{number}}",
+    "tokens": "{{count}} tokens"
+  },
+  "attachments": {
+    "uploading": "Téléchargement en cours...",
+    "uploaded": "Fichier téléchargé",
+    "processing": "Traitement du fichier...",
+    "failed": "Échec du téléchargement",
+    "remove": "Supprimer la pièce jointe",
+    "preview": "Aperçu",
+    "download": "Télécharger le fichier",
+    "types": {
+      "pdf": "Document PDF",
+      "doc": "Document Word",
+      "image": "Image",
+      "audio": "Fichier audio",
+      "video": "Vidéo",
+      "other": "Fichier"
+    },
+    "size_limit": "Taille maximale : {{size}}Mo"
+  },
+  "tools": {
+    "title": "Outils",
+    "executing": "Exécution de l'outil...",
+    "completed": "Outil terminé",
+    "failed": "Échec de l'outil",
+    "browser": "Navigateur",
+    "search": "Recherche",
+    "code": "Exécution de code",
+    "file": "Opération fichier"
+  },
+  "memory": {
+    "title": "Mémoire",
+    "layer": "Niveau {{number}}",
+    "l0": "Session",
+    "l1": "Conversation",
+    "l2": "Utilisateur",
+    "l3": "Sémantique",
+    "l4": "Graphe",
+    "facts": "Faits mémorisés",
+    "no_facts": "Aucun fait mémorisé",
+    "view_graph": "Voir le graphe"
+  },
+  "conversations": {
+    "title": "Conversations",
+    "new": "Nouvelle conversation",
+    "search": "Rechercher des conversations...",
+    "empty": "Aucune conversation",
+    "delete_confirm": "Supprimer cette conversation ?"
+  },
+  "phases": {
+    "receiving": "LEO reçoit...",
+    "classifying": "LEO classifie...",
+    "routing": "LEO achemine...",
+    "generating": "LEO génère...",
+    "validating": "LEO valide...",
+    "integrating": "LEO intègre...",
+    "responding": "LEO répond..."
+  }
+}

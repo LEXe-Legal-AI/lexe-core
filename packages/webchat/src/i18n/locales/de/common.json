@@ -1,0 +1,65 @@
+{
+  "app": {
+    "name": "LEO Webchat",
+    "tagline": "Vom Chaos zu Ergebnissen"
+  },
+  "actions": {
+    "send": "Senden",
+    "cancel": "Abbrechen",
+    "confirm": "Bestatigen",
+    "close": "Schliessen",
+    "copy": "Kopieren",
+    "copied": "Kopiert!",
+    "delete": "Loschen",
+    "edit": "Bearbeiten",
+    "save": "Speichern",
+    "retry": "Wiederholen",
+    "skip": "Uberspringen",
+    "upload": "Hochladen",
+    "download": "Herunterladen",
+    "expand": "Erweitern",
+    "collapse": "Reduzieren",
+    "search": "Suchen"
+  },
+  "navigation": {
+    "home": "Startseite",
+    "conversations": "Unterhaltungen",
+    "settings": "Einstellungen",
+    "help": "Hilfe",
+    "logout": "Abmelden"
+  },
+  "theme": {
+    "light": "Hell",
+    "dark": "Dunkel",
+    "system": "System"
+  },
+  "language": {
+    "select": "Sprache wahlen",
+    "current": "Aktuelle Sprache"
+  },
+  "status": {
+    "online": "Online",
+    "offline": "Offline",
+    "connecting": "Verbindung wird hergestellt...",
+    "loading": "Laden...",
+    "processing": "Verarbeitung..."
+  },
+  "time": {
+    "now": "Jetzt",
+    "today": "Heute",
+    "yesterday": "Gestern",
+    "minutes_ago": "vor {{count}} Minute",
+    "minutes_ago_plural": "vor {{count}} Minuten",
+    "hours_ago": "vor {{count}} Stunde",
+    "hours_ago_plural": "vor {{count}} Stunden"
+  },
+  "auth": {
+    "title": "LEO Plattform",
+    "subtitle": "Ihr Virtueller Betriebsleiter",
+    "login_oauth": "Mit Authentik fortfahren",
+    "login_guest": "Als Gast fortfahren",
+    "email": "E-Mail",
+    "password": "Passwort",
+    "login_submit": "Anmelden"
+  }
+}

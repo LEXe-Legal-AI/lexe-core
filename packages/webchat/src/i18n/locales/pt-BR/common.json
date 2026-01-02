@@ -1,0 +1,65 @@
+{
+  "app": {
+    "name": "LEO Webchat",
+    "tagline": "Do caos aos resultados"
+  },
+  "actions": {
+    "send": "Enviar",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "close": "Fechar",
+    "copy": "Copiar",
+    "copied": "Copiado!",
+    "delete": "Excluir",
+    "edit": "Editar",
+    "save": "Salvar",
+    "retry": "Tentar novamente",
+    "skip": "Pular",
+    "upload": "Enviar",
+    "download": "Baixar",
+    "expand": "Expandir",
+    "collapse": "Recolher",
+    "search": "Pesquisar"
+  },
+  "navigation": {
+    "home": "Inicio",
+    "conversations": "Conversas",
+    "settings": "Configuracoes",
+    "help": "Ajuda",
+    "logout": "Sair"
+  },
+  "theme": {
+    "light": "Claro",
+    "dark": "Escuro",
+    "system": "Sistema"
+  },
+  "language": {
+    "select": "Selecionar idioma",
+    "current": "Idioma atual"
+  },
+  "status": {
+    "online": "Online",
+    "offline": "Offline",
+    "connecting": "Conectando...",
+    "loading": "Carregando...",
+    "processing": "Processando..."
+  },
+  "time": {
+    "now": "Agora",
+    "today": "Hoje",
+    "yesterday": "Ontem",
+    "minutes_ago": "ha {{count}} minuto",
+    "minutes_ago_plural": "ha {{count}} minutos",
+    "hours_ago": "ha {{count}} hora",
+    "hours_ago_plural": "ha {{count}} horas"
+  },
+  "auth": {
+    "title": "Plataforma LEO",
+    "subtitle": "Seu Diretor de Operacoes Virtual",
+    "login_oauth": "Continuar com Authentik",
+    "login_guest": "Continuar como Convidado",
+    "email": "E-mail",
+    "password": "Senha",
+    "login_submit": "Entrar"
+  }
+}

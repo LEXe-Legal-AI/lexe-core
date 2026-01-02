@@ -1,0 +1,65 @@
+{
+  "app": {
+    "name": "LEO Webchat",
+    "tagline": "Del caos a los resultados"
+  },
+  "actions": {
+    "send": "Enviar",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "close": "Cerrar",
+    "copy": "Copiar",
+    "copied": "Copiado!",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "save": "Guardar",
+    "retry": "Reintentar",
+    "skip": "Saltar",
+    "upload": "Subir",
+    "download": "Descargar",
+    "expand": "Expandir",
+    "collapse": "Contraer",
+    "search": "Buscar"
+  },
+  "navigation": {
+    "home": "Inicio",
+    "conversations": "Conversaciones",
+    "settings": "Configuracion",
+    "help": "Ayuda",
+    "logout": "Cerrar sesion"
+  },
+  "theme": {
+    "light": "Claro",
+    "dark": "Oscuro",
+    "system": "Sistema"
+  },
+  "language": {
+    "select": "Seleccionar idioma",
+    "current": "Idioma actual"
+  },
+  "status": {
+    "online": "En linea",
+    "offline": "Sin conexion",
+    "connecting": "Conectando...",
+    "loading": "Cargando...",
+    "processing": "Procesando..."
+  },
+  "time": {
+    "now": "Ahora",
+    "today": "Hoy",
+    "yesterday": "Ayer",
+    "minutes_ago": "hace {{count}} minuto",
+    "minutes_ago_plural": "hace {{count}} minutos",
+    "hours_ago": "hace {{count}} hora",
+    "hours_ago_plural": "hace {{count}} horas"
+  },
+  "auth": {
+    "title": "Plataforma LEO",
+    "subtitle": "Tu Director de Operaciones Virtual",
+    "login_oauth": "Continuar con Authentik",
+    "login_guest": "Continuar como Invitado",
+    "email": "Correo electronico",
+    "password": "Contrasena",
+    "login_submit": "Iniciar sesion"
+  }
+}

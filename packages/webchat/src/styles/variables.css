@@ -1,0 +1,140 @@
+/* LEO Webchat - CSS Variables & Theme System */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Lora:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+  /* ═══════════════════════════════════════════
+     LEO BRAND COLORS
+     ═══════════════════════════════════════════ */
+  --leo-primary: #1E3A5F;
+  --leo-primary-light: #2a4a6f;
+  --leo-primary-dark: #152a45;
+  --leo-secondary: #F7931E;
+  --leo-secondary-light: #ff9f43;
+  --leo-secondary-dark: #e07d0a;
+  --leo-accent: #00A896;
+  --leo-accent-light: #00d9b5;
+  --leo-accent-dark: #008577;
+  --leo-dark: #0D1B2A;
+  --leo-light: #F8F9FA;
+  --leo-gray: #6C757D;
+  --leo-gray-light: #ADB5BD;
+  --leo-gray-dark: #495057;
+
+  /* ═══════════════════════════════════════════
+     SEMANTIC COLORS (shadcn/ui compatible)
+     ═══════════════════════════════════════════ */
+  --background: 0 0% 100%;
+  --foreground: 210 40% 11%;
+  --card: 0 0% 100%;
+  --card-foreground: 210 40% 11%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 210 40% 11%;
+  --primary: 210 50% 25%;
+  --primary-foreground: 0 0% 98%;
+  --secondary: 32 94% 54%;
+  --secondary-foreground: 0 0% 9%;
+  --muted: 210 20% 96%;
+  --muted-foreground: 210 15% 45%;
+  --accent: 170 100% 33%;
+  --accent-foreground: 0 0% 98%;
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 98%;
+  --border: 210 20% 90%;
+  --input: 210 20% 90%;
+  --ring: 210 50% 25%;
+  --radius: 0.75rem;
+
+  /* ═══════════════════════════════════════════
+     GLASSMORPHISM
+     ═══════════════════════════════════════════ */
+  --glass-bg: rgba(30, 58, 95, 0.6);
+  --glass-bg-light: rgba(255, 255, 255, 0.7);
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --glass-border-light: rgba(255, 255, 255, 0.2);
+  --glass-blur: 12px;
+  --glass-blur-heavy: 20px;
+
+  /* ═══════════════════════════════════════════
+     GRADIENTS
+     ═══════════════════════════════════════════ */
+  --gradient-primary: linear-gradient(135deg, var(--leo-primary) 0%, var(--leo-primary-light) 100%);
+  --gradient-accent: linear-gradient(135deg, var(--leo-secondary) 0%, var(--leo-secondary-light) 100%);
+  --gradient-glow: linear-gradient(135deg, var(--leo-accent) 0%, var(--leo-accent-light) 100%);
+  --gradient-dark: linear-gradient(180deg, var(--leo-dark) 0%, #1a2d42 100%);
+  --gradient-shimmer: linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.1) 50%, transparent 100%);
+
+  /* ═══════════════════════════════════════════
+     SHADOWS
+     ═══════════════════════════════════════════ */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+  --shadow-glow: 0 0 20px rgba(0, 168, 150, 0.3);
+  --shadow-glow-orange: 0 0 20px rgba(247, 147, 30, 0.3);
+
+  /* ═══════════════════════════════════════════
+     TYPOGRAPHY
+     ═══════════════════════════════════════════ */
+  --font-heading: 'Poppins', system-ui, sans-serif;
+  --font-body: 'Lora', Georgia, serif;
+  --font-mono: 'JetBrains Mono', Consolas, monospace;
+
+  /* ═══════════════════════════════════════════
+     SPACING
+     ═══════════════════════════════════════════ */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+
+  /* ═══════════════════════════════════════════
+     TRANSITIONS
+     ═══════════════════════════════════════════ */
+  --transition-fast: 150ms ease;
+  --transition-normal: 250ms ease;
+  --transition-slow: 350ms ease;
+
+  /* ═══════════════════════════════════════════
+     Z-INDEX
+     ═══════════════════════════════════════════ */
+  --z-base: 0;
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-overlay: 300;
+  --z-modal: 400;
+  --z-popover: 500;
+  --z-tooltip: 600;
+}
+
+/* ═══════════════════════════════════════════
+   DARK MODE
+   ═══════════════════════════════════════════ */
+.dark {
+  --background: 210 40% 8%;
+  --foreground: 0 0% 95%;
+  --card: 210 35% 12%;
+  --card-foreground: 0 0% 95%;
+  --popover: 210 35% 10%;
+  --popover-foreground: 0 0% 95%;
+  --primary: 32 94% 54%;
+  --primary-foreground: 0 0% 9%;
+  --secondary: 210 50% 25%;
+  --secondary-foreground: 0 0% 98%;
+  --muted: 210 30% 18%;
+  --muted-foreground: 210 15% 60%;
+  --accent: 170 100% 40%;
+  --accent-foreground: 0 0% 9%;
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 98%;
+  --border: 210 30% 20%;
+  --input: 210 30% 20%;
+  --ring: 32 94% 54%;
+
+  --glass-bg: rgba(13, 27, 42, 0.8);
+  --glass-bg-light: rgba(30, 58, 95, 0.6);
+  --glass-border: rgba(255, 255, 255, 0.08);
+}

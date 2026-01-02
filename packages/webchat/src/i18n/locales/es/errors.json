@@ -1,0 +1,33 @@
+{
+  "generic": {
+    "title": "Ocurrió un error",
+    "description": "Algo salió mal. Por favor, inténtalo más tarde.",
+    "retry": "Reintentar"
+  },
+  "network": {
+    "offline": "Estás sin conexión. Verifica tu conexión.",
+    "timeout": "Tiempo de espera agotado. Por favor, reintenta.",
+    "server": "Error del servidor. Por favor, inténtalo más tarde."
+  },
+  "auth": {
+    "unauthorized": "No autorizado. Por favor, inicia sesión.",
+    "forbidden": "Acceso denegado.",
+    "session_expired": "Sesión expirada. Por favor, inicia sesión de nuevo."
+  },
+  "chat": {
+    "send_failed": "Error al enviar mensaje.",
+    "stream_failed": "Error en streaming de respuesta.",
+    "connection_lost": "Conexión perdida. Reconectando..."
+  },
+  "upload": {
+    "too_large": "Archivo muy grande. Máximo {{size}}MB.",
+    "invalid_type": "Tipo de archivo no soportado.",
+    "failed": "Error al subir. Por favor, reintenta."
+  },
+  "validation": {
+    "required": "Este campo es obligatorio",
+    "min_length": "Mínimo {{count}} caracteres",
+    "max_length": "Máximo {{count}} caracteres",
+    "invalid_email": "Correo electrónico inválido"
+  }
+}
